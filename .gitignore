@@ -1,0 +1,55 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+# tmp file
+*~
+*.autosave
+.DS_Store
+Makefile*
+Thumbs.db
+
+# config
+config/*
+data/*
+# exceptions
+# !config/config.json
+# !data/data.xlsx
+
+
+# qtcreator generated files
+*.pro.user*
+
+# Vim temporary files
+.*.swp
+log.txt
+
+# python
+*.pyc
+__pycache__/
+*.pkl
+*.egg-info/
+
+
+# binaries
+# --------
+*.exe
+
+# data
+*.sqlite
+*.xls
+*.xlsx
+*.csv
+
+# C++
+*.dll
+*.lib
+build/
+CMakeLists.txt.user*
+CMakeSettings.json
+
+# editor
+.vs/
+.vscode/
+.idea/
+
+# project specific
